@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "subnet-calculator"
+version = "v0.0.1"
+description = ""
+authors = ["Hugo ChunHo Lin <hugo970217@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gradio = "^4.39.0"
+aws-cdk-lib = "^2.150.0"
+mangum = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
