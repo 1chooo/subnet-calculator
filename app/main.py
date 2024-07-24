@@ -3,7 +3,6 @@ from fastapi import FastAPI
 from mangum import Mangum
 
 from app.infra.web.router import setup_routers
-from app.playground.calculator import build_calculator_demo
 
 app = FastAPI()
 setup_routers(app)

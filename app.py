@@ -10,7 +10,7 @@ from typing import Any
 
 from dotenv import load_dotenv
 
-from app.playground.classifier import build_classifier_demo
+from app.views.classifier import build_classifier_demo
 
 
 def main(*args: Any, **kwargs: Any,) -> None:
